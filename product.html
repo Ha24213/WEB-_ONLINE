@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel ="stylesheet" href="style1.css">
+    <title>Danh Mục</title>
+</head>
+<body>
+    <header>
+        <h1>TOP</h1>
+    </header>
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li><a href="#">Danh Mục</a>
+                    <ul>
+                         <li><a href="#">Thêm Danh Mục</a></li>
+                         <li><a href="#">Danh sách</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Loại Xe</a>
+                <ul>
+                    <li><a href="#">Thêm Loại Xe</a></li>
+                    <li><a href="#">Danh sách Xe</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Tên Xe</a>
+                    <ul>
+                    <li><a href="#">Thêm Tên Xe</a></li>
+                    <li><a href="#">Danh sách Xe</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="admin-content-right">
+           <div class="admin-content-right-product-add">
+                <h1>Thêm Tên Xe</h1>
+                <form action ="" method="POST" enctype = "multipart/form-data">
+                    <label for="">Nhập Tên Xe<span style="color: red"></span></label>
+                    <input required type ="text">
+                     <label for="">Chọn Loại Xe<span style="color: red"></span></label>
+                    <select name ="" id="">
+                        <option value="#">--Chọn---</option>
+                    </select>
+                    <label for="">Chọn Tên Xe<span style="color: red"></span></label>
+                     <select name ="" id="">
+                     <label for="">Chọn Tên Xe<span style="color: red"></span></label>
+                        <option value="#">--Chọn---</option>
+                    </select>
+                    <label for="">Mã Số Xe<span style="color: red"></span></label>
+                    <input type="text">
+                    <label for="">Phiên Bản<span style="color: red"></span></label>
+                    <input type="text">
+                    <label for="">Giá Niêm Yết<span style="color: red"></span></label>
+                    <input type="text">
+                    <label for="">Mô tả<span style="color: red"></span></label>
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <label for="">Ảnh Sản Phẩm<span style="color: red"></span></label>
+                    <input required type="file">
+                    <label for="">Ảnh Mô Tả<span style="color: red"></span></label>
+                    <input required multiple type="file">
+                    <button type ="submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
